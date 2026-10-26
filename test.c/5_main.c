@@ -9,13 +9,13 @@ int main (void)
     switch(op)
     {
         case '+':
-            printf(".2%f",a+b);
+            printf("%.2f",a+b);
             break;
         case '-':
-            printf(".2%f",a-b);
+            printf("%.2f",a-b);
             break;
         case '*':
-            printf(".2%f",a*b);
+            printf("%.2f",a*b);
             break;
         case '/':
             if(b == 0)
@@ -23,7 +23,7 @@ int main (void)
                 printf("错误:除数不能为 0");
                 break;
             }
-            printf(".2%f",a/b);
+            printf("%.2f",a/b);
             break;
         case '%':
             if(b == 0)
