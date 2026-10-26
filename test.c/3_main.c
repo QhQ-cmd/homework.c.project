@@ -16,10 +16,10 @@ void Measure(float a,float b,float c)
 {
     if(a+b>c && a+c>b && b+c>a)
     {
-        printf("三角形存在\n");
+        printf("能构成三角形\n");
     }
     else
     {
-        printf("三角形不存在\n");
+        printf("不能构成三角形\n");
     }
 }
