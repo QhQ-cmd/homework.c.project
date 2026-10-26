@@ -23,6 +23,6 @@ int Measure(float num)
     }
     else
     {
-        printf("0不是正数也不是负数\n");
+        printf("零\n");
     }
 }
