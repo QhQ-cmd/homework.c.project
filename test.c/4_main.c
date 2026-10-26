@@ -14,7 +14,8 @@ int main(void)
 
 void Measure(float grade)
 {
-    if((int)grade * 100 == grade * 100)
+    int t = (int)(grade * 1000 + 0.5f);
+    if(t % 10 ==0)
 {
     if(grade >=90 && grade <= 100)
     {
