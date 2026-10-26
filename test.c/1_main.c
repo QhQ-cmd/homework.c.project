@@ -7,6 +7,6 @@ int main(void)
     float temperature;
     scanf("%f",&temperature);
     fahrenheit = temperature * 1.8 + 32;
-    printf("%.1f",fahrenheit);
+    printf("华氏温度 = %.1f",fahrenheit);
     return 0;
 }
