@@ -14,6 +14,8 @@ int main(void)
 
 void Measure(float grade)
 {
+    if((int)grade * 100 == grade * 100)
+{
     if(grade >=90 && grade <= 100)
     {
         printf("A\n");
@@ -34,6 +36,11 @@ void Measure(float grade)
     {
         printf("E\n");
     }
+     else
+    {
+        printf("输入无效\n");
+    }
+ }
     else
     {
         printf("输入无效\n");
