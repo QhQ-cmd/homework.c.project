@@ -20,7 +20,7 @@ int main (void)
         case '/':
             if(b == 0)
             {
-                printf("错误:除数不能为 0");
+                printf("错误: 除数不能为 0");
                 break;
             }
             printf("%.2f",a/b);
