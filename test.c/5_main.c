@@ -9,13 +9,13 @@ int main (void)
     switch(op)
     {
         case '+':
-            printf("%f",a+b);
+            printf(".2%f",a+b);
             break;
         case '-':
-            printf("%f",a-b);
+            printf(".2%f",a-b);
             break;
         case '*':
-            printf("%f",a*b);
+            printf(".2%f",a*b);
             break;
         case '/':
             if(b == 0)
@@ -23,7 +23,7 @@ int main (void)
                 printf("输入错误");
                 break;
             }
-            printf("%f",a/b);
+            printf(".2%f",a/b);
             break;
         case '%':
             if(b == 0)
