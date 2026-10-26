@@ -14,7 +14,7 @@ int main(void)
 
 void Measure(float grade)
 {
-    if(grade >=90 && grade n<= 100)
+    if(grade >=90 && grade <= 100)
     {
         printf("A\n");
     }
